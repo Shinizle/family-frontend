@@ -22,7 +22,8 @@ const router = createRouter({
     {
       path: '/customer/:id/edit',
       name: 'customer.edit',
-      component: () => import('../views/customers/Edit.vue')
+      component: () => import('../views/customers/Edit.vue'),
+      props: true
     }
   ]
 })
